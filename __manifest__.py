@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "reuniones",
+    'name': "Gestión de las salas de reuniones",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Módulo para la gestión de las salas de reuniones de la empresa",
 
     'description': """
-Long description of module's purpose
+En este módulo guardaremos la información de las salas y de las reuniones que se harán en ellas
     """,
 
-    'author': "My Company",
+    'author': "María J",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -22,7 +22,7 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
