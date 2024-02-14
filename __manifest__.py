@@ -1,28 +1,29 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Gestión de las salas de reuniones",
+    'name': "Gestión de la sala de reuniones",
 
-    'summary': "Módulo para la gestión de las salas de reuniones de la empresa",
+    'summary': """
+        Módulo para la gestión de las salas de reuniones de la empresa""",
 
     'description': """
-En este módulo guardaremos la información de las salas y de las reuniones que se harán en ellas
+        En este módulo guardaremos la información de las salas y de las reuniones que se harán de ellas
     """,
 
-    'author': "María J",
-    'website': "https://www.yourcompany.com",
+    'author': "Maria J",
+    'website': "https://www.kassiopea.com",
 
     # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
+    # Check https://github.com/odoo/odoo/blob/16.0/odoo/addons/base/data/ir_module_category_data.xml
     # for the full list
     'category': 'Uncategorized',
-    'version': '0.1',
+    'version': '0.2',
 
     # any module necessary for this one to work correctly
     'depends': ['base'],
 
     # always loaded
     'data': [
-        'security/ir.model.access.csv',
+        # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
@@ -31,4 +32,3 @@ En este módulo guardaremos la información de las salas y de las reuniones que 
         'demo/demo.xml',
     ],
 }
-
